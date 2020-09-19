@@ -1,0 +1,21 @@
+.bar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerText {
+    color: #004584;
+    font-weight: bold;
+}
+
+#subreddit {
+    margin-left: 40px;
+}
+
+#clout {
+    margin-left: 42.5%;
+    margin-right: 2.5%;
+    text-align: right;
+}

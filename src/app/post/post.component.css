@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+.post-body {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.content {
+    width: 80%;
+}
+
+.votes {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+p { margin:0 }
+
+.text > * {
+    font-family: 'Roboto';
+}
+
+.grey {
+    color: #B6B8BA;
+}

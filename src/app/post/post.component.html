@@ -1,0 +1,12 @@
+<div class="post-body text">
+    <div class="content">
+        <p class="grey">Posted by {{post.author}} {{day}} days ago</p>
+        <h2 id="test">{{(post.title.length>50)? (post.title | slice:0:50)+'..':(post.title) }}</h2>
+        <p class="grey">{{(post.content.length>215)? (post.content | slice:0:215)+'...':(post.content) }}</p>
+    </div>
+    <div class="votes grey">
+        <p>upvotes: {{post.upvotes}}</p>
+        <p>downvotes: {{post.downvotes}}</p>
+        <p>total: {{post.upvotes*1-post.downvotes*1}}</p>
+    </div>
+</div>

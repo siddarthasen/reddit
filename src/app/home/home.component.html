@@ -1,0 +1,12 @@
+<!-- Header -->
+<app-header>
+</app-header>
+
+<!-- Each Post -->
+<div *ngFor="let post of totalPosts">
+    <br/>
+    <a [routerLink]="['/post', post.id]">
+        <app-post [post]="post"></app-post>
+    </a>
+    <br/>
+</div>

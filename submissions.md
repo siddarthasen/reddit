@@ -10,8 +10,8 @@ performance and prevent memory leaks if this web app were to scale.
 3. Clean up my routing. I'm creating the header twice while navigating through the pages. If I had more time, I could clean this up. 
 
 How did you deviate from the directions, if at all, and why?
-your answer here
-I added a back button along with clicking the berkeley picture to go back to home. This is for easier navigation. 
+your answer here. 
+1. I added a back button along with clicking the berkeley picture to go back to home. This is for easier navigation. 
 
 Is there anything else you'd like to let us know?
-No. 
+1. No. 
